@@ -1,5 +1,5 @@
 body {
-    font-family: Hero;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -43,10 +43,12 @@ body {
 
 .r-cont{
     display: flex;
-    border-radius: 1em;
-    background-color: rgba(115, 255, 185, 0.472);
+    border-radius: 8px;
+    background-color: rgba(131, 205, 255, 0.603);
     padding: 6em;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .title {
@@ -68,20 +70,110 @@ button{
     padding: 8px 24px;
     height: 3em;
     width: 7em;
-    border:none;
+    border-color: rgba(255, 255, 255, 0.383);
+
 }
 
 .second {
-    height:30em;
+    height:35em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title-second{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+.biggest-box{
+    display: flex;
+    flex-direction: row;
+    padding: 3em;
+    column-gap: 3em;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blue-box{
+    height: 200px;
+    width: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 1em;
+}
+
+.box-text{
+    padding: 8px;
+    width: 200px;
+    display: flex;
+    text-align:center;
+    color:#1F2937
+
 }
 
 .third {
     background-color: #E5E7EB;
-    height:30em;
+    height:15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 5em;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937ea;
 }
+
+.person{
+    display: flex;
+    justify-content: flex-end;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
 
 .forth{
     height:30em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-rectangular{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 1em;
+    padding: 3em 9em;
+    column-gap: 6em;
+    
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    row-gap: 4px;
+    
+}
+
+.call{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .footer {
@@ -90,7 +182,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2em 6em;
+    padding: 2em 5em;
 }
 
 .header{
